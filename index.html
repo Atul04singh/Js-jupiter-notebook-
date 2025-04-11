@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Notebook</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.10/codemirror.min.css"
+    />
+    <!-- Theme (optional) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.10/theme/dracula.min.css"
+    />
+  </head>
+  <body>
+    <header class="notebook-header">
+      <h1>🧠 JavaScript Notebook</h1>
+      <div class="header-buttons">
+        <button id="addBlockBtn">➕ Add Code Block</button>
+        <button id="saveMdBtn">💾 Save as .md</button>
+        <input
+          type="file"
+          id="loadMdInput"
+          accept=".md"
+          style="display: none"
+        />
+        <button id="loadMdBtn">📂 Load .md</button>
+      </div>
+    </header>
+
+    <main id="notebook">
+      <!-- Code blocks will be added here -->
+      <div id="codeBlocks"></div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="save&load.js"></script>
+    <script src="utils.js"></script>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.10/codemirror.min.js"></script>
+    <!-- JavaScript mode (for syntax highlighting) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.10/mode/javascript/javascript.min.js"></script>
+    <!-- Optional addon for bracket auto-close -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.10/addon/edit/closebrackets.min.js"></script>
+  </body>
+</html>

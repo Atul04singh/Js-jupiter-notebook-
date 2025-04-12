@@ -1,5 +1,26 @@
 # Js-jupiter-notebook-
 This notebook have similar feel just like python jupiter notebook but made for java script 
+ie -
+
+A lightweight in-browser JavaScript notebook where you can write, run, save, and export code blocks. Great for practicing JS, prototyping, or teaching code — no frameworks, no dependencies, just pure vanilla JavaScript.
+
+---
+
+## ✨ Features
+
+- Add multiple editable JavaScript code blocks
+- Run JS code and view output instantly
+- Save and load blocks using `localStorage`
+- Export all blocks with output to a **Markdown `.md` file**
+- Simple, clean, and responsive UI
+
+---
+
+## 📸 Preview
+
+> 
+
+---
 
 
 ## 🧠 How It Works
